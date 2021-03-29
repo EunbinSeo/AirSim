@@ -27,7 +27,7 @@ C++은 visual studio와 연동하여 사용할 수 있습니다. (python 보다�
 권장 Python 버전: 3.6 이상
 virtual environment는 optional이지만 사용할 수 있으면 사용해보세요. 환경변수 꼬여도 마음이 편합니다. window를 이용한다면, [링크](https://dojang.io/mod/page/view.php?id=2470)를 참고하셔도 됩니다. Ubuntu를 이용한다면, [링크](https://wordbe.tistory.com/entry/ubuntu-python-virtualenv-%EC%84%A4%EC%A0%95)를 참고하셔도 됩니다. 다양한 방법이 있으니 검색해보세요!
 
-설치 1번에서 받은 파일의 압축을 풀고, PythonClient/car/setup_path.py를 실행시킵니다.
+설치 1번에서 받은 파일의 압축을 풀고, AirSim-master/PythonClient/car/setup_path.py를 실행시킵니다.
 pip upgrade를 한 후 airsim과 tornado, opencv를 설치해야 예제 코드를 실행시킬 수 있습니다.
 
 ~~~(bash)
@@ -38,7 +38,7 @@ pip3 install opencv-contrib-python
 ~~~
 
 설치 2번에서 다운한 맵을 선택해서 run.at 파일을 실행시키고
-예제 코드인 PythonClient/car/hello_car.py를 실행시켜봅시다.
+예제 코드인 AirSim-master/PythonClient/car/hello_car.py를 실행시켜봅시다.
 실행이 된다면, 기어를 통해 전진, 후진, 중립 등 결정하여 throttle과 steering을 조절하면 차의 방향을 조종할 수 있습니다.
 
 ## Todo list
