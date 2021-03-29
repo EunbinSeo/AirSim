@@ -25,7 +25,7 @@ C++은 visual studio와 연동하여 사용할 수 있습니다. (python 보다�
 
 ## Setting for Python and run the Code!
 권장 Python 버전: 3.6 이상
-virtual environment는 optional이지만 사용할 수 있으면 사용해보세요. 환경변수 꼬여도 마음이 편합니다. 컴퓨터가 window를 이용한다면, [링크](https://dojang.io/mod/page/view.php?id=2470)를 참고하셔도 됩니다. 
+virtual environment는 optional이지만 사용할 수 있으면 사용해보세요. 환경변수 꼬여도 마음이 편합니다. window를 이용한다면, [링크](https://dojang.io/mod/page/view.php?id=2470)를 참고하셔도 됩니다. Ubuntu를 이용한다면, [링크](https://wordbe.tistory.com/entry/ubuntu-python-virtualenv-%EC%84%A4%EC%A0%95)를 참고하셔도 됩니다. 다양한 방법이 있으니 검색해보세요!
 
 설치 1번에서 받은 파일의 압축을 풀고, AirSim/master/PythonClient/car/setup_path.py를 실행시킵니다.
 pip upgrade를 한 후 airsim과 tornado, opencv를 설치해야 예제 코드를 실행시킬 수 있습니다.
