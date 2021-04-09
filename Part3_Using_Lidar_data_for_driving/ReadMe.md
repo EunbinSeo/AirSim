@@ -92,3 +92,5 @@ class LidarTest:
  self.client.simEnableWeather(True)
 ```
 코드를 수정한 후 F10키를 눌러 기후환경을 마음대로 조정가능하다.
+다음은 기후 상황을 바꿔 눈이 오는 환경에서 주행하는 상황이다.
+![lidar_weather](https://user-images.githubusercontent.com/53460541/114149423-daf9b580-9955-11eb-97f8-7b0d9dc11bc8.png)
